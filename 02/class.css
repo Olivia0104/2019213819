@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    height: 98vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 5fr;
+} 
+.grid-item {
+    background-color:lightskyblue;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 4vh;
+}
+ .grid-item:nth-of-type(7)
+{
+    grid-row-end: span 6;
+} 
+

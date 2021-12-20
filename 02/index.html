@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课程表</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-item"></div>
+        <div class="grid-item">周一</div>
+        <div class="grid-item">周二</div>
+        <div class="grid-item">周三</div>
+        <div class="grid-item">周四</div>
+        <div class="grid-item">周五</div>
+        <div class="grid-item">
+            <div class="box1" id="x1" style="display: none">
+                <div class="info1">
+                    教师：金汉均<br>
+                    上课时间：1-19周 周一3-4节<br>
+                    教室：N113<br>
+                    上课时间：1-19周(单) 周三7-8节<br>
+                    教室：N113
+                </div>
+            </div>
+
+            <div class="box9" id="x9" style="display: none">
+                <div class="info9">
+                    教师：李增扬<br>
+                    上课时间：1-19周 周一7-8节<br>
+                    教室：N112
+                </div>
+            </div>
+            <div class="box3" id="x3" style="display: none">
+                <div class="info3">
+                    教师：涂新辉<br>
+                    上课时间：2-18周(双) 周二1-2节<br>
+                    教室：N520<br>
+                    上课时间：1-19周 周四5-6节<br>
+                    教室：N108
+                </div>
+            </div>
+            <div class="box4" id="x4" style="display: none">
+                <div class="info4">
+                    教师：张春燕<br>
+                    上课时间：1-10周 周二5-6节<br>
+                    教室：8105
+                </div>
+            </div>
+            <div class="box5" id="x5" style="display: none">
+                <div class="info5">
+                    教师：张连发<br>
+                    上课时间：1-19周 周三1-2节<br>
+                    教室：N520
+                </div>
+            </div>
+
+            <div class="box6" id="x6" style="display: none">
+                <div class="info6">
+                    教师：李源<br>
+                    上课时间：1-19周 周三3-4节<br>
+                    教室：N211<br>
+                    上课时间：1-19周(单) 周五1-2节<br>
+                    教室：N211<br>
+                    上课时间：6-18周(双) 周五1-2节<br>
+                    教室：N520
+                </div>
+            </div>
+
+            <div class="box7" id="x7" style="display: none">
+                <div class="info7">
+                    教师：张艳斌<br>
+                    上课时间：1-19周 周四3-4节<br>
+                    教室：N215
+                </div>
+            </div>
+            <div class="box8" id="x8" style="display: none">
+                <div class="info8">
+                    教师：蔡霞<br>
+                    上课时间：1-19周 周四7-8节
+                    教室：N211<br>
+                    上课时间：1-19周(单) 周二1-2节
+                    教室：N113<br>
+                    《编译原理》课程是为计算机科学与技术专业及软件工程专业本科高年级学生开设的一门专业必修课程。它既是一门理论性、实践性、技术性很强的课程，也是理论与实践紧密结合的课程。
+                    本课程设置的目的是通过对编译系统的结构、文法和语言的基本知识、自动机、词法分析和语法分析的一般原理和算法、语法制导翻译技术、代码优化的学习，使学生较好地掌握编译原理的基本原理和基本技术、编译原理中涉及的基本算法、基本结构和主要实现技术，从而让学生了解将高级程序设计语言源程序翻译成计算机能处理的目标代码语言的整个过程，基本掌握计算机系统软件之一的编译程序的构造原理及相关技术，同时，还可提高学生计算机专业素质，培养学生的抽象思维能力。
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">1-2节</div>
+        <div class="grid-item"></div>
+        <div class="grid-item" onmouseover="over3()" onmouseout="out3()">
+            Web程序设计
+        </div>
+        <div class="grid-item" onmouseover="over5()" onmouseout="out5()">
+            人工智能
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item" onmouseover="over6()" onmouseout="out6()">
+            操作系统原理
+        </div>
+        <div class="grid-item">3-4节</div>
+        <div class="grid-item" onmouseover="over1()" onmouseout="out1()">
+            微机原理与接口技术
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item" onmouseover="over6()" onmouseout="out6()">
+            操作系统原理
+        </div>
+        <div class="grid-item" onmouseover="over7()" onmouseout="out7()">
+            习近平新时代中国特色社会主义思想概论
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item">5-6节</div>
+        <div class="grid-item"></div>
+        <div class="grid-item" onmouseover="over4()" onmouseout="out4()">
+            旅游摄影——镜头下的触摸
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item" onmouseover="over3()" onmouseout="out3()">
+            Web程序设计
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item">7-8节</div>
+        <div class="grid-item" onmouseover="over9()" onmouseout="out9()">
+            专业英语
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item" onmouseover="over1()" onmouseout="out1()">
+            微机原理与接口技术
+        </div>
+        <div class="grid-item" onmouseover="over8()" onmouseout="out8()">
+            编译原理
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item">9-10节</div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
+</body>
+
+<script>
+    function over1() {
+        var x1 = document.getElementById("x1");
+        x1.style.display = "block";
+    }
+    function out1() {
+        var x1 = document.getElementById("x1");
+        x1.style.display = "none";
+    }
+    function over3() {
+        var x3 = document.getElementById("x3");
+        x3.style.display = "block";
+    }
+    function out3() {
+        var x3 = document.getElementById("x3");
+        x3.style.display = "none";
+    }
+    function over4() {
+        var x4 = document.getElementById("x4");
+        x4.style.display = "block";
+    }
+    function out4() {
+        var x4 = document.getElementById("x4");
+        x4.style.display = "none";
+    }
+    function over5() {
+        var x5 = document.getElementById("x5");
+        x5.style.display = "block";
+    }
+    function out5() {
+        var x5 = document.getElementById("x5");
+        x5.style.display = "none";
+    }
+    function over6() {
+        var x6 = document.getElementById("x6");
+        x6.style.display = "block";
+    }
+    function out6() {
+        var x6 = document.getElementById("x6");
+        x6.style.display = "none";
+    }
+    function over7() {
+        var x7 = document.getElementById("x7");
+        x7.style.display = "block";
+    }
+    function out7() {
+        var x7 = document.getElementById("x7");
+        x7.style.display = "none";
+    }
+    function over8() {
+        var x8 = document.getElementById("x8");
+        x8.style.display = "block";
+    }
+    function out8() {
+        var x8 = document.getElementById("x8");
+        x8.style.display = "none";
+    }
+    function over9() {
+        var x9 = document.getElementById("x9");
+        x9.style.display = "block";
+    }
+    function out9() {
+        var x9 = document.getElementById("x9");
+        x9.style.display = "none";
+    }
+</script>
+
+</html>
